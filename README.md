@@ -2,7 +2,7 @@
 
 Fredrick Nzioki
 
-This is my portfolio as I begin to learn how to code in Moringa-prep
+This is my portfolio as I begin to learn how to code in Moringa-prep at Moringa School
 
 ## Set-up
 ```
