@@ -1,20 +1,45 @@
 h1 {
-  color: white;
+  color: inherit;
   text-align: center;
   font-family:inherit;
 }
 h2 {
-  color: white;
+  color: inherit;
   text-align: center;
 }
 p {
-  color: white;
+  color: inherit;
   text-align: center;
 }
 ul {
-  color: white;
-  text-align: center;
+  color: inherit;
 }
 img {
-  photo-align: center;
+  float: right;
+}
+.sidebar {
+  width: 30%;
+  float: left;
+  background-color: light blue;
+}
+.column {
+   float: right;
+   column-width: 40%;
+   column-length auto;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: yellowgreen;
+  }
+  .column {
+    width: 500px;
+    float: left;
+    padding: 30px;
+  }
 }
